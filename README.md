@@ -25,6 +25,6 @@ XCTest class was used to write small unit tests for some of the functions in the
   * download the project from Github
   * open the xcode workspace file
   * connect a device or use the simulator and press the run button
-  * to run the tests, open the test project section and press the run button on each indidual test functions
+  * to run the tests, open the test project section and press the run button on each individual test functions
 
 
