@@ -63,9 +63,11 @@ extension EmployeesViewController {
     
     //MARK: Delegate
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        appDelegate.selectedEmployee = self.employees[indexPath.row - 1]
-        let secondViewController:EmployeeDetailViewController = EmployeeDetailViewController()
-        self.navigationController?.pushViewController(secondViewController, animated: true)
+        if indexPath.row > 0 {
+            appDelegate.selectedEmployee = self.employees[indexPath.row - 1]
+            let secondViewController:EmployeeDetailViewController = EmployeeDetailViewController()
+            self.navigationController?.pushViewController(secondViewController, animated: true)
+        }
         
     }
 }
