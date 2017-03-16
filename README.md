@@ -2,7 +2,7 @@
 # Wage Calculator Iphone App
 
 ## Demo
-![Click here](https://media.giphy.com/media/3oKIPv6yswajskp5lu/source.gif)
+![Click here](https://media.giphy.com/media/l4FGyIHUztPnaGTXG/giphy.gif)
 
 ## Features
   * The application shows the employess id , name and monthly wage
